@@ -3,6 +3,7 @@ import classes from "./AddUser.module.css";
 
 import Card from "../UI/Card";
 import Button from "../UI/Button";
+import UserList from "./UserList";
 
 const AddUser = (props) => {
   const [enteredUsername, setEnteredUsername] = useState("");
